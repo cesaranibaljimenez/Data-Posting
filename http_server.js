@@ -24,7 +24,6 @@ app.use(bodyParser.json());
 
 // return all users 
 app.get('/data', function(req, res){     
-
    res.send(db.get('users').value());
 
 });
@@ -37,9 +36,6 @@ app.post('/test', function(req, res){
 
 // add user
 app.post('/add', function(req, res){
-
-    const avatarUrl = `https://picsum.photos/200/300?random=${Math.random()}`;
-
     var user ={
         'name' : req.body.name,
         'dob' : req.body.dob,
@@ -51,7 +47,7 @@ app.post('/add', function(req, res){
         'citystatezip' : req.body.citystatezip,
         'latitude' : req.body.laitude,
         'longitude': req.body.longitude,
-        'avatar' : avatarUrl,
+        'avatar' : req.body.avatar,
     }
     db.get('users').push(user).write();
     console.log(db.get('users').value());
