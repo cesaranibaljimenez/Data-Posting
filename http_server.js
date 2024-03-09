@@ -37,6 +37,9 @@ app.post('/test', function(req, res){
 
 // add user
 app.post('/add', function(req, res){
+
+    const avatarUrl = `https://picsum.photos/200/300?random=${Math.random()}`;
+
     var user ={
         'name' : req.body.name,
         'dob' : req.body.dob,
@@ -48,7 +51,7 @@ app.post('/add', function(req, res){
         'citystatezip' : req.body.citystatezip,
         'latitude' : req.body.laitude,
         'longitude': req.body.longitude,
-        'avatar' : req.body.avatar,
+        'avatar' : avatarUrl,
     }
     db.get('users').push(user).write();
     console.log(db.get('users').value());
