@@ -11,7 +11,6 @@ const db = low(adapter);
 
 // configure express to serve static files from public directory
 // ------------------------------------------------------------------
-// configure express to serve static files from public directory
 app.use(express.static('public'));
 
 
@@ -42,10 +41,10 @@ app.post('/add', function(req, res){
         'name' : req.body.name,
         'dob' : req.body.dob,
         'email' : req.body.email,
-        'usrname' : req.body.username,
+        'username' : req.body.username,
         'password' : req.body.password,
         'phone' : req.body.phone,
-        'strretadress' : req.body.streetadress,
+        'streetaddress' : req.body.streetaddress,
         'citystatezip' : req.body.citystatezip,
         'latitude' : req.body.laitude,
         'longitude': req.body.longitude,
