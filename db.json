@@ -1,3 +1,48 @@
 {
-  "users": []
+  "users": [
+    {
+      "name": "Foster Franecki",
+      "dob": "19617_3",
+      "email": "Foster.Franecki9@yahoo.com",
+      "usrname": "Foster_Franecki",
+      "password": "obpp6lzzRf7bJ7R",
+      "phone": "(596) 524-6275 x2896",
+      "citystatezip": "North Aiden, MD 52815",
+      "longitude": "-176.8307",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/r_oy/128.jpg"
+    },
+    {
+      "name": "Zander Zemlak",
+      "dob": "19793_9",
+      "email": "Zander_Zemlak@yahoo.com",
+      "usrname": "Zander_Zemlak44",
+      "password": "JJTyejOvsryuYPR",
+      "phone": "(738) 707-2668 x7969",
+      "citystatezip": "East Romanhaven, FL 35004-7316",
+      "longitude": "141.8025",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/joreira/128.jpg"
+    },
+    {
+      "name": "Miss Isadore Crist",
+      "dob": "197211_23",
+      "email": "Isadore91@gmail.com",
+      "usrname": "Isadore_Crist50",
+      "password": "lDRgyRGAUjVuree",
+      "phone": "544.353.2985 x240",
+      "citystatezip": "North Millie, VA 51896",
+      "longitude": "39.4999",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/_scottburgess/128.jpg"
+    },
+    {
+      "name": "Conner Goyette",
+      "dob": "19741_2",
+      "email": "Conner44@hotmail.com",
+      "usrname": "Conner.Goyette",
+      "password": "BGB3ueCzcBL1Dyi",
+      "phone": "1-264-401-7657",
+      "citystatezip": "South Karellemouth, NH 43559-4423",
+      "longitude": "57.3066",
+      "avatar": "https://s3.amazonaws.com/uifaces/faces/twitter/madebybrenton/128.jpg"
+    }
+  ]
 }
