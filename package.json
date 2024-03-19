@@ -4,7 +4,8 @@
   "description": "little tiers",
   "main": "http_server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node http_server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
   },
   "homepage": "https://github.com/kogsio/littletiers#readme",
   "dependencies": {
-    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "lowdb": "^1.0.0"
   }
